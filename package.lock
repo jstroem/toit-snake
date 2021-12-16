@@ -20,11 +20,12 @@ packages:
       pixel_display: toit-pixel-display
   toit-m5stack-core2:
     url: github.com/toitware/toit-m5stack-core2
-    version: 1.1.1
-    hash: 314ba4e3d94f24f4a31eafd7256a145d08a914ce
+    version: 1.1.2
+    hash: 0f8d1c4fc10861dbd2bb2e10b1f12cbcbd32f9cc
     prefixes:
       axp192: toit-axp192
       color_tft: toit-color-tft
+      ft63xx: ft63xx-toit
       pixel_display: toit-pixel-display
   toit-pixel-display:
     url: github.com/toitware/toit-pixel-display

@@ -7,7 +7,7 @@ dependencies:
     version: ^1.0.0
   m5stack_core2:
     url: github.com/toitware/toit-m5stack-core2
-    version: ^1.1.1
+    version: ^1.1.2
   pixel_display:
     url: github.com/toitware/toit-pixel-display
     version: ^1.2.0

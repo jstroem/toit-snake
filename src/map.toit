@@ -95,3 +95,9 @@ class Pos:
 
   operator - other/Pos -> Pos:
     return Pos this.x-other.x this.y-other.y
+
+  operator == other/Pos -> bool:
+    return this.x == other.x and this.y == other.y
+
+  hash_code -> int:
+    return (this.x * 17) ^ this.y
